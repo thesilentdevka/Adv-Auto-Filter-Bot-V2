@@ -214,6 +214,10 @@ async def cb_settings(bot, update: CallbackQuery):
                 (
                     "Close 🔐", callback_data="close"
                 )
+             InlineKeyboardButton
+                                (
+                                    'Developer', url="https://t.me/thesilentninja"
+                                )
         ]
     ]
 
